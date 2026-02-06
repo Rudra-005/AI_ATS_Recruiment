@@ -1,0 +1,21 @@
+Generate personalized interview questions for this candidate.
+
+Focus on:
+• Candidate projects
+• Missing skills
+• Job requirements
+
+Job Description:
+{job_description}
+
+Resume:
+{resume_text}
+
+Return JSON:
+{{
+ "technical_questions": [5 questions],
+ "project_questions": [3 questions],
+ "hr_questions": [2 questions]
+}}
+
+Return ONLY valid JSON, no markdown, no explanations.

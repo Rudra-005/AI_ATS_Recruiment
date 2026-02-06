@@ -1,0 +1,15 @@
+Rank candidates based on job fit.
+
+Job Description:
+{job_description}
+
+Candidates:
+{resume_list}
+
+Return JSON array sorted by rank:
+[
+ {{"name": "Candidate 1", "score": 85, "rank": 1, "reason": "brief reason"}},
+ {{"name": "Candidate 2", "score": 72, "rank": 2, "reason": "brief reason"}}
+]
+
+Return ONLY valid JSON array, no markdown, no explanations.

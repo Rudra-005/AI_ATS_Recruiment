@@ -1,0 +1,20 @@
+Summarize this candidate for a recruiter dashboard.
+
+Include:
+• Candidate level (Fresher/Junior/Mid/Senior)
+• Key expertise
+• Most impressive project
+• Hiring recommendation in one sentence
+
+Resume:
+{resume_text}
+
+Return JSON:
+{{
+ "candidate_level": "Fresher/Junior/Mid/Senior",
+ "key_expertise": [list of 3-5 skills],
+ "most_impressive_project": "brief description",
+ "hiring_recommendation": "one sentence recommendation"
+}}
+
+Return ONLY valid JSON, no markdown, no explanations.

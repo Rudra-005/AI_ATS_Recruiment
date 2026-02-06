@@ -1,0 +1,21 @@
+Calculate match scores. Return only valid JSON.
+
+Candidate: {resume_data}
+Job: {job_requirements}
+
+Output format:
+{{
+  "overall_score": 75.5,
+  "skills_match": 80.0,
+  "experience_match": 70.0,
+  "education_match": 85.0,
+  "reasoning": "Strong technical skills match with 4/5 required skills. Experience level aligns well. Education exceeds requirements."
+}}
+
+Scoring rules:
+- Skills: % of required skills matched
+- Experience: Years alignment (0-100)
+- Education: Degree level match (0-100)
+- Overall: Weighted average
+- Reasoning: One factual sentence
+- Valid JSON only

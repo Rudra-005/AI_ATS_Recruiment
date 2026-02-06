@@ -1,0 +1,20 @@
+Generate candidate analysis. Return only valid JSON.
+
+Candidate: {resume_data}
+Job: {job_requirements}
+Scores: {matching_results}
+
+Output format:
+{{
+  "strengths": ["Strong Python skills", "Relevant experience"],
+  "gaps": ["Missing React knowledge", "No cloud experience"],
+  "recommendations": ["Learn React framework", "Get AWS certification"],
+  "fit_assessment": "Good technical fit with some skill gaps to address"
+}}
+
+Rules:
+- Strengths: 2-3 specific matches
+- Gaps: 2-3 missing requirements
+- Recommendations: 2-3 actionable items
+- Assessment: One sentence summary
+- Valid JSON only

@@ -1,0 +1,24 @@
+You are an ATS resume scanner.
+
+Evaluate how ATS-friendly this resume is.
+
+Check:
+• Contact information present
+• Clear section headings
+• Skills section exists
+• Projects/Experience present
+• Uses standard formatting
+• Uses measurable achievements
+
+Resume:
+{resume_text}
+
+Return JSON:
+
+{{
+ "ats_score": number (0-100),
+ "ats_issues": [list],
+ "improvement_suggestions": [list]
+}}
+
+Return ONLY valid JSON, no markdown, no explanations.

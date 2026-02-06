@@ -1,0 +1,18 @@
+Compare the resume with the job description.
+
+Identify skill gaps that could prevent hiring.
+
+Job Description:
+{job_description}
+
+Resume:
+{resume_text}
+
+Return JSON:
+{{
+ "must_have_missing_skills": [list],
+ "good_to_have_missing_skills": [list],
+ "learning_recommendations": [list of courses/topics]
+}}
+
+Return ONLY valid JSON, no markdown, no explanations.

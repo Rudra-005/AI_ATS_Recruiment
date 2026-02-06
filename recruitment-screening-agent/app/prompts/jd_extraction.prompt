@@ -1,0 +1,19 @@
+Extract job requirements. Return only valid JSON.
+
+Job Description: {job_description}
+
+Output format:
+{{
+  "required_skills": ["Python", "React", "SQL"],
+  "preferred_skills": ["AWS", "Docker", "Kubernetes"],
+  "experience_level": "3-5 years",
+  "education_requirements": "Bachelor's degree in Computer Science",
+  "job_summary": "Full-stack developer role"
+}}
+
+Rules:
+- Separate required vs preferred skills
+- Extract exact experience range
+- Include education requirements
+- One sentence job summary
+- Valid JSON only

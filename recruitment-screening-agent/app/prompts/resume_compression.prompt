@@ -1,0 +1,18 @@
+Extract structured data from resume. Return only valid JSON.
+
+Resume: {resume_text}
+
+Output format:
+{{
+  "skills": ["Python", "JavaScript", "AWS"],
+  "experience": "5 years software development",
+  "education": "BS Computer Science",
+  "summary": "Senior developer with cloud expertise"
+}}
+
+Rules:
+- Extract technical skills only
+- Quantify experience in years
+- Include highest education degree
+- One sentence summary
+- Valid JSON only

@@ -1,9 +1,3 @@
-Perfect 😄 I’ll give you a **complete professional README.md** you can paste directly into GitHub.
-
-Create a file named **README.md** in your repo and paste everything below 👇
-
----
-
 # 🧠 AI Recruitment & ATS Resume Screening Platform
 
 An end-to-end AI hiring assistant that automates resume screening, ATS evaluation, candidate ranking, skill gap detection, recruiter Q&A, and interview preparation using LLMs.
